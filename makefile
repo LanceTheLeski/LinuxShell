@@ -6,9 +6,6 @@ shell352: project-starter.c
 clean:
 	rm shell352
 
-
-
-
 gensine: main.c gensnd.c
 	gcc -o gensine main.c gensnd.c -I. -lm
 
